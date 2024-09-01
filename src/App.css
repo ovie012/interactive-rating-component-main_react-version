@@ -129,6 +129,42 @@ body {
   outline: none;
 }
 
+@media only screen and (max-width:500px) {
+  .container {
+      width: 95%;
+      height: 350px;
+  } 
+
+  .img {
+      width: 40px;
+      height: 40px;
+  }
+
+  .texts h3 {
+    font-size: 1.5rem;
+  }
+
+  .texts p {
+    font-size: 0.8rem;
+  }
+
+  .ratings p,
+  .ratings button {
+    width: 40px;
+    height: 40px;
+    font-size: 0.85rem;
+  }
+
+  .submit-button {
+    height: 40px;
+  }
+
+  .submit {
+    font-size: 0.85rem;
+  }
+
+}
+
 /* clicked section */
 .clicked {
   width: 85%;
@@ -188,6 +224,20 @@ body {
   line-height: 15px;
 }
 
+@media only screen and (max-width:500px) {
+  .ratings-text p  {
+    font-size: 0.75rem;
+  }
+
+  .appreciation h3 {
+    font-size: 1.25rem;
+  }
+
+  .appreciation p {
+    font-size: 0.75rem;
+  }
+}
+
 /* active  */
 .active {
   display: block;
@@ -238,4 +288,18 @@ body {
 .alert-button:hover {
   color: hsl(25, 97%, 53%);
   background: hsl(0, 0%, 100%);
+}
+
+@media only screen and (max-width:800px) {
+  .alert {
+    width: 90%;
+  }
+
+  .alert-message {
+    font-size: 0.8rem;
+  }
+
+  .alert-button {
+    font-size: 0.8rem;
+  }
 }
