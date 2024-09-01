@@ -132,6 +132,7 @@ body {
 @media only screen and (max-width:500px) {
   .container {
       width: 95%;
+      margin-left: 2.5%;
       height: 350px;
   } 
 
@@ -293,6 +294,7 @@ body {
 @media only screen and (max-width:800px) {
   .alert {
     width: 90%;
+    left: 5%;
   }
 
   .alert-message {
